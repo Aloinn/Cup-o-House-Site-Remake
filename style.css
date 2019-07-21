@@ -1,0 +1,58 @@
+body{
+  background-color: #839192  ;
+  font-family: 'Raleway', sans-serif;
+}
+.bg-bg{
+  background-color: transparent;
+}
+.bg-darker{
+  background-color: #17202d;
+}
+.f1{
+  font-family: 'Righteous', cursive;
+}
+/* STROKE */
+a:hover{
+  text-decoration: none;
+}
+
+nav{
+  z-index:5 !important;
+}
+#navbrand{
+  transition: 0.2s background;
+}
+.shadow{
+  position:relative;
+  box-shadow: 40px -50px 20px -40px #111111;
+  z-index:4
+}
+.image-container{
+  position:relative;
+}
+.caption {
+  position: absolute;
+  z-index:4;
+  width: 100%;
+}
+
+.caption-center{
+
+}
+
+.nav-item{
+  background-color: black;
+  color:white !important;
+  flex:1;
+  text-align: center;
+  transition: 0.4s ;
+}
+.nav-item:hover{
+  background-color: #222222;
+}
+.bannerimage{
+  filter: brightness(40%);
+  position: relative;
+  z-index:3;
+  object-fit: cover;
+}
